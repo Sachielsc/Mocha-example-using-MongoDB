@@ -2,6 +2,9 @@
   "name": "My-first-Mocha-project",
   "version": "1.0.0",
   "description": "Charles' Mocha demo project.",
+  "scripts": {
+    "test": "mocha"
+  },
   "dependencies": {
     "mocha": "^5.2.0"
   },

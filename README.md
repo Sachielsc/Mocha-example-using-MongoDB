@@ -1,6 +1,6 @@
 # Charles' Mocha Project
 
 ## Description
-TBD
+Charles' Mocha demo project.
 
 
