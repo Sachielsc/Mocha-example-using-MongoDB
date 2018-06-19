@@ -1,0 +1,11 @@
+{
+  "name": "My-first-Mocha-project",
+  "version": "1.0.0",
+  "description": "Charles' Mocha demo project.",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {},
+  "author": "Charles SHU",
+  "license": "MIT"
+}
