@@ -10,19 +10,26 @@ describe('Blobs', function() {
     chai.request(server)
       .get('/blobs')
       .end(function(err, res){
+        console.log("\nThe response is:\n");
+        console.log(res.body);
+        console.log("\n");
         res.should.have.status(200);
         res.should.be.json;
         res.body.should.be.a('array');
         done();
       });
   });
+
   it('should list a SINGLE blob on /blob/<id> GET');
+
   it('should add a SINGLE blob on /blobs POST', function(done) {
     chai.request(server)
       .post('/blobs')
       .send({'name': 'Java', 'lastName': 'Script'})
       .end(function(err, res){
+        console.log("\nThe response is:\n");
         console.log(res.body);
+        console.log("\n");
         res.should.have.status(200);
         res.should.be.json;
         res.body.should.be.a('object');
@@ -36,6 +43,8 @@ describe('Blobs', function() {
         done();
       });
   });
+
   it('should update a SINGLE blob on /blob/<id> PUT');
+
   it('should delete a SINGLE blob on /blob/<id> DELETE');
 });
