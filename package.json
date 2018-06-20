@@ -19,6 +19,7 @@
     "chai": "^4.1.2",
     "chai-http": "^4.0.0"
   },
+  "repository": "https://github.com/Sachielsc/Mocha-example-using-MongoDB.git",
   "author": "Charles SHU",
   "license": "MIT"
 }
